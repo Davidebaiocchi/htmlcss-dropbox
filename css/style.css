@@ -78,6 +78,7 @@ header #logo span {
     right: 0;
     transform: translate(-25%, -50%);
     font-size: 18px; 
+    cursor: pointer;
 }
 
 /* button jumbo */
@@ -91,6 +92,7 @@ header #logo span {
     height: 44px;
     width: 244px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 /* button main */
@@ -102,9 +104,17 @@ header #logo span {
     height: 44px;
     width: 244px;
     font-size: 18px;
+    cursor: pointer;
 
 }
 
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
 
 /*  JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON */
 .jumbotron {
@@ -167,6 +177,11 @@ main span {
     margin-right: 20px;
 }
 
+.fatturazione {
+    text-align: left;
+}
+
+
 /* card */
 .titolocard {
     font-size: 20px;
@@ -185,6 +200,7 @@ main span {
     border: 1px solid rgb(167, 167, 167);
     position: relative;
     top: 30px;
+    height: 989px;
 
 }
 
@@ -203,6 +219,18 @@ li span {
 
 .container-plane {
     float: left;
+    margin-right: 45px;
+    margin-top: 30px;
 }
 
 
+
+
+
+
+/* ricorrenti */
+.clearfix {
+    content: '';
+    clear: both;
+    display: table;
+}
