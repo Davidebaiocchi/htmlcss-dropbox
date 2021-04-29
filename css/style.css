@@ -14,6 +14,7 @@ header{
     top: 0;
     left: 0;
     z-index: 1;
+    border: 1px solid rgb(197, 197, 197);
 }
 
 header nav li {
@@ -34,14 +35,14 @@ header i {
 
 header .menuright {
     position: absolute;
-    top: 50%;
+    top: 63%;
     right: 0;
     transform: translate(-25%, -50%);
 }
 
 header .menuleft {
     position: absolute;
-    top: 50%;
+    top: 63%;
     left: 300px;
     transform: translate(-25%, -50%);
 }
@@ -167,33 +168,41 @@ main span {
 }
 
 /* card */
-.singolo {
+.titolocard {
     font-size: 20px;
-    border: 1px solid black;
     width: 315px;
-    height: 48px;
-    text-align: center;
-    padding-top: 10px;
+    height: 30px;
+    padding-left: 80px;
 }
 
-.singolo2 {
+.internocard {
     font-size: 20px;
 }
+
 .card-plane {
-    width: 253px;
-    height: 808px;
+    width: 315px;
     padding: 30px;
+    border: 1px solid rgb(167, 167, 167);
+    position: relative;
+    top: 30px;
+
 }
 
-.singolo2 div, li, h3 {
-    margin-top: 20px;
+.internocard div, li, h3 {
+    margin-bottom: 20px;
 }
 
+main li {
+    list-style-type: none;
+    font-size: 18px;
+}
 
+li span {
+    margin: 0;
+}
 
-
-
-/* debug */
 .container-plane {
-    height: 1000px;
+    float: left;
 }
+
+
