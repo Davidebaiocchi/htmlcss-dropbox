@@ -3,3 +3,115 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header*/
+header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+/* nav header */
+header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header i {
+    font-size: 32px;
+}
+
+header .menuright {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-25%, -50%);
+}
+
+header .menuleft {
+    position: absolute;
+    top: 50%;
+    left: 300px;
+    transform: translate(-25%, -50%);
+}
+
+header #logo {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translate(-25%, -50%);
+}
+
+header #logo span {
+    font-size: 27px;
+    position: relative;
+    bottom: 3px;
+    font-weight: 900;
+}
+
+/* BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON */
+
+/* button header */
+.btninizia {
+    background-color:#0061ff;
+    width: 77px;
+    height: 32px;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-25%, -50%);
+    font-size: 18px; 
+}
+/* button jumbo */
+.btnprovagratuita {
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    background-color:#0061ff;
+}
+
+
+
+
+/* jumbotron */
+.jumbotron {
+    height: 691px;
+    background-color: #b4d0e7; 
+    margin-top: 80px;  
+}
+
+.jumbotron .titolo {
+    height: 216px;
+    width: 1320px;
+    font-size: 70px;
+    margin: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 50px;
+}
+
+.jumbotron p {
+    display: inline-block;
+    height: 156px;
+    width: 360px;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+
+
+
+/* tag riutilizzabili */
