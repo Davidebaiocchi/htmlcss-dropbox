@@ -391,31 +391,45 @@ h4 {
     width: 150px;
     color: white;
     display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
-.imgdesig {
+.imgdes {
     background-color: #a2d39b;
     height: 317.13px;
     width: 317.13px;
+    position: relative;
+    float: left;
 }
 
 .img2 {
     background-color: #61082b;
     height: 317.13px;
     width: 317.13px;
+    position: relative;
+    float: left;
 }
 
 .img3 {
     background-color: #d5001f; 
     height: 317.13px;
     width: 317.13px;
+    position: absolute;
+    right: 317.13px;
+    float: left;
 }
 
 .img4 {
     background-color: #b4d0e7;  
     height: 317.13px;
     width: 317.13px; 
+    float: left;
+    position: absolute;
+    right: 0;
 }
 
 .secondoquadrato {
@@ -430,23 +444,35 @@ h4 {
 .img5 {
     background-color: #0093ce;  
     height: 317.13px;
-    width: 317.13px;  
+    width: 317.13px; 
+    position: relative;
+    float: left; 
 }
 
 .img6 {
     background-color: #ff1c1c; 
     height: 317.13px;
-    width: 317.13px;   
+    width: 317.13px;  
+    position: relative;
+    float: left; 
 }
 
 .img7 {
     background-color: #0d2481;  
     height: 317.13px;
     width: 317.13px;  
+    position: absolute;
+    right: 317.13px;
+    float: left;
 }
 
 .img8 {
     background-color: #ffd830;
     height: 317.13px;
-    width: 317.13px;    
+    width: 317.13px; 
+    position: absolute;
+    right: 0;
+    float: left;   
 }
+
+
