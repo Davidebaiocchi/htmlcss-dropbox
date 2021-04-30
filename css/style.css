@@ -377,3 +377,76 @@ h4 {
     margin: auto;
     width: 57%;
 }
+
+
+
+/* QUADRATI QUADRATI QUADRATI QUADRATI QUADRATI QUADRATI QUADRATI */
+.section2 {
+    position: relative;
+    top: 1300px;
+}
+
+.section2 img {
+    height: 75px;
+    width: 150px;
+    color: white;
+    display: block;
+}
+
+
+.imgdesig {
+    background-color: #a2d39b;
+    height: 317.13px;
+    width: 317.13px;
+}
+
+.img2 {
+    background-color: #61082b;
+    height: 317.13px;
+    width: 317.13px;
+}
+
+.img3 {
+    background-color: #d5001f; 
+    height: 317.13px;
+    width: 317.13px;
+}
+
+.img4 {
+    background-color: #b4d0e7;  
+    height: 317.13px;
+    width: 317.13px; 
+}
+
+.secondoquadrato {
+    height: 634.25px;
+    width: 634.25px;
+    background-color: #f5f5f5;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img5 {
+    background-color: #0093ce;  
+    height: 317.13px;
+    width: 317.13px;  
+}
+
+.img6 {
+    background-color: #ff1c1c; 
+    height: 317.13px;
+    width: 317.13px;   
+}
+
+.img7 {
+    background-color: #0d2481;  
+    height: 317.13px;
+    width: 317.13px;  
+}
+
+.img8 {
+    background-color: #ffd830;
+    height: 317.13px;
+    width: 317.13px;    
+}
