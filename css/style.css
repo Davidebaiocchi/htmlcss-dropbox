@@ -20,13 +20,19 @@ header{
 header nav li {
     display: inline-block;
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 20px; 
+}
+
+header nav li:hover{
+    border-bottom: 2px solid black;
 }
 
 /* nav header */
 header a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    height: 80px;  
+    display: inline-block;
 }
 
 header i {
@@ -35,14 +41,14 @@ header i {
 
 header .menuright {
     position: absolute;
-    top: 63%;
+    top: 100%;
     right: 0;
     transform: translate(-25%, -50%);
 }
 
 header .menuleft {
     position: absolute;
-    top: 63%;
+    top: 100%;
     left: 300px;
     transform: translate(-25%, -50%);
 }
@@ -141,6 +147,21 @@ a {
     cursor: pointer;
 }
 
+.btnprovagratuita2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 12px;
+    background-color:#ffffff;
+    margin-left: 300px;
+    margin-top: 30px;
+    height: 44px;
+    width: 244px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    left: 450px;
+}
+
 /*  JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON */
 .jumbotron {
     height: 691px;
@@ -178,7 +199,7 @@ a {
 
 .img1 {
     position: absolute;
-    top: 330px;
+    top: 324px;
     left: 37%;
 }
 
@@ -205,6 +226,7 @@ main span {
 .fatturazione {
     text-align: left;
 }
+
 
 
 /* card card card card card card card card card card card card card card */
@@ -249,6 +271,7 @@ li span {
 }
 
 
+
 /* CARTA ORIZZONTALE CARTA ORIZZONTALE CARTA ORIZZONTALE CARTA ORIZZONTALE CARTA ORIZZONTALE */
 .orizontal-section {
     width: 1040px;
@@ -277,6 +300,8 @@ h4 {
     margin-bottom: 20px;
 }
 
+
+
 /* PATNER PATNER PATNER PATNER PATNER PATNER PATNER PATNER PATNER PATNER PATNER PATNER  */
 .patner {
     position: relative;
@@ -296,8 +321,10 @@ h4 {
     margin: 30px 0;
 }
 
-/*  PEZZO CON 6 CARD PEZZO CON 6 CARD PEZZO CON 6 CARD PEZZO CON 6 CARD PEZZO CON 6 CARD */
 
+
+
+/*  PEZZO CON 6 CARD PEZZO CON 6 CARD PEZZO CON 6 CARD PEZZO CON 6 CARD PEZZO CON 6 CARD */
 .sixcard {
     position: relative;
     top: 450px;
@@ -351,6 +378,8 @@ h4 {
 }
 
 
+
+
 /* 500k 500k 500k 500k 500k 500k 500k 500k 500k 500k 500k 500k 500k*/
 .a500k {
     position: relative;
@@ -367,6 +396,9 @@ h4 {
 }
 
 
+
+
+
 /* ricorrenti */
 .clearfix::after {
     content: '';
@@ -377,6 +409,8 @@ h4 {
     margin: auto;
     width: 57%;
 }
+
+
 
 
 
@@ -395,8 +429,8 @@ h4 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 }
-
 
 .imgdes {
     background-color: #a2d39b;
@@ -476,3 +510,66 @@ h4 {
 }
 
 
+
+.ultimoblocco {
+background-color: #b4d0e7;
+height: 317.13px;
+}
+
+.ultimoblocco h2 {
+    color: #61082b;
+    position: relative;
+    top: 130px;
+    font-size: 48px;
+}
+
+
+/* Question Question Question Question Question Question Question Question Question */
+.section3  {
+    position: relative;
+    top: 1400px;
+}
+
+.section3 h3 {
+    font-size: 45px;
+}
+
+.section3 div {
+    margin-top: 50px;
+    font-size: 21px;
+}
+
+.section3 hr {
+    position: relative;
+    top: 30px;
+}
+.section3 span {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+
+/*  FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER  */
+footer {
+    position: relative;
+    top: 1550px;
+    height: 70vh;
+    background-color: black;
+}
+
+footer li {
+    color: white;
+    list-style-type: none;
+    margin-left: 70px;
+    font-size: 17px
+}
+
+footer ul {
+    display: inline-block;
+    margin-top: 180px;
+}
+
+footer .titolo {
+    font-size: 23px;
+}
