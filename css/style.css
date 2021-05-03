@@ -5,6 +5,7 @@
 }
 
 
+
 /*  HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
 header{ 
     width: 100%;
@@ -70,9 +71,14 @@ header #logo span {
 
 
 
+
+
+
+
+
+
+
 /* BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON  */
-
-
 
 /* button header */
 .btninizia {
@@ -97,7 +103,6 @@ header #logo span {
 .btngrey:hover {
     background-color: rgb(241, 240, 240);
 }
-
 
 /* button jumbo */
 .btnprovagratuita {
@@ -174,6 +179,10 @@ a {
     left: 450px;
 }
 
+
+
+
+
 /*  JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON JUMBOTRON */
 .jumbotron {
     height: 691px;
@@ -217,6 +226,10 @@ a {
 
 
 
+
+
+
+
 /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
 
 main .section1 {
@@ -241,11 +254,13 @@ main span {
 
 
 
+
+
+
+
 /* card card card card card card card card card card card card card card */
 .titolocard {
     font-size: 20px;
-    width: 315px;
-    height: 30px;
     padding-left: 80px;
 }
 
@@ -254,13 +269,11 @@ main span {
 }
 
 .card-plane {
-    width: 315px;
     padding: 30px;
     border: 1px solid rgb(167, 167, 167);
     position: relative;
     top: 30px;
     height: 989px;
-
 }
 
 .internocard div, li, h3 {
@@ -277,10 +290,14 @@ li span {
 }
 
 .container-plane {
+    width: 28%;
     float: left;
-    margin-right: 45px;
     margin-top: 30px;
+    margin-right: 45px;
 }
+
+
+
 
 
 
@@ -314,6 +331,9 @@ h4 {
 
 
 
+
+
+
 /* PATNER PATNER PATNER PATNER PATNER PATNER PATNER PATNER PATNER PATNER PATNER PATNER  */
 .patner {
     position: relative;
@@ -332,6 +352,8 @@ h4 {
     font-size: 20px;
     margin: 30px 0;
 }
+
+
 
 
 
@@ -366,28 +388,22 @@ h4 {
     width: calc(30% - 20px);
     float: left;
     margin-right: 46.5px; 
-    position: absolute;
-    left: 0;
-    top: 635px;
-}
+}  
 
 .caviasixcard5 {
     width: calc(30% - 20px);
     float: left;
     margin-right: 46.5px; 
-    position: absolute;
-    left: 350px;
-    top: 635px;
-}
+}   
 
 .caviasixcard6 {
     width: calc(30% - 20px);
     float: left;
     margin-right: 46.5px; 
-    position: absolute;
-    right: 0;
-    top: 635px;
+  
 }
+
+
 
 
 
@@ -395,7 +411,7 @@ h4 {
 /* 500k 500k 500k 500k 500k 500k 500k 500k 500k 500k 500k 500k 500k*/
 .a500k {
     position: relative;
-    top: 1200px;
+    top: 500px;
 }
 
 .a500k a {
@@ -425,11 +441,10 @@ h4 {
 
 
 
-
 /* QUADRATI QUADRATI QUADRATI QUADRATI QUADRATI QUADRATI QUADRATI */
 .section2 {
     position: relative;
-    top: 1300px;
+    top: 550px;
 }
 
 .section2 img {
@@ -548,33 +563,37 @@ height: 317.13px;
 /* Question Question Question Question Question Question Question Question Question */
 .section3  {
     position: relative;
-    top: 1400px;
+    top: 700px;
 }
 
 .section3 h3 {
     font-size: 45px;
 }
 
-.section3 div {
-    margin-top: 50px;
+.section3 li {
+    margin-top: 30px;
     font-size: 21px;
 }
 
-.section3 hr {
-    position: relative;
-    top: 30px;
-}
 .section3 span {
     font-size: 30px;
     font-weight: bolder;
 }
 
+.effetto-hover {
+    display: none;
+}
+
+li:hover .effetto-hover {
+    display:block;
+    color: grey;
+}
 
 
 /*  FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER  */
 footer {
     position: relative;
-    top: 1550px;
+    top: 850px;
     height: 70vh;
     background-color: black;
 }
