@@ -347,7 +347,7 @@ h4 {
 }
 
 .caviasixcard {
-    width: 315px;
+    width: calc(30% - 20px);
     float: left;
     margin-right: 46.5px; 
 }
@@ -363,7 +363,7 @@ h4 {
 }
 
 .caviasixcard4 {
-    width: 315px;
+    width: calc(30% - 20px);
     float: left;
     margin-right: 46.5px; 
     position: absolute;
@@ -372,7 +372,7 @@ h4 {
 }
 
 .caviasixcard5 {
-    width: 315px;
+    width: calc(30% - 20px);
     float: left;
     margin-right: 46.5px; 
     position: absolute;
@@ -381,7 +381,7 @@ h4 {
 }
 
 .caviasixcard6 {
-    width: 315px;
+    width: calc(30% - 20px);
     float: left;
     margin-right: 46.5px; 
     position: absolute;
@@ -417,7 +417,7 @@ h4 {
     display: table;
     clear: both;
 }
-.width57 {
+.central {
     margin: auto;
     width: 57%;
 }
@@ -442,83 +442,92 @@ h4 {
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    filter: invert(1);
 }
 
 .imgdes {
     background-color: #a2d39b;
-    height: 317.13px;
-    width: 317.13px;
+}
+
+.square {
     position: relative;
+    width: 16.6%;
     float: left;
+}
+  
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+  
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .img2 {
     background-color: #61082b;
-    height: 317.13px;
-    width: 317.13px;
-    position: relative;
-    float: left;
+    border: 10px solid #976679;
 }
 
 .img3 {
-    background-color: #d5001f; 
-    height: 317.13px;
-    width: 317.13px;
-    position: absolute;
-    right: 317.13px;
-    float: left;
+    background-color: #d5001f;
+    position: relative;
+    left: 34%;
 }
 
 .img4 {
-    background-color: #b4d0e7;  
-    height: 317.13px;
-    width: 317.13px; 
-    float: left;
-    position: absolute;
-    right: 0;
+    background-color: #b4d0e7;
+    position: relative;
+    left: 34%;
 }
 
 .secondoquadrato {
-    height: 634.25px;
-    width: 634.25px;
+    width: 33%;
     background-color: #f5f5f5;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.img5 {
-    background-color: #0093ce;  
-    height: 317.13px;
-    width: 317.13px; 
+#logoasu {
+    filter: invert(0);
     position: relative;
-    float: left; 
+    right: 225px;
+    bottom: 80px;
+}
+
+.secondoquadrato img {
+    filter: invert(0);
+}
+
+.secondoquadrato p {
+    background-color: white;
+    padding: 0 40px;
+    font-size: 20px;
+    padding-top: 80px;
+}
+
+.img5 {
+    background-color: #0093ce; 
 }
 
 .img6 {
     background-color: #ff1c1c; 
-    height: 317.13px;
-    width: 317.13px;  
-    position: relative;
-    float: left; 
 }
 
 .img7 {
-    background-color: #0d2481;  
-    height: 317.13px;
-    width: 317.13px;  
-    position: absolute;
-    right: 317.13px;
-    float: left;
+    background-color: #0d2481;
+    position: relative;
+    left: 34%;
 }
 
 .img8 {
     background-color: #ffd830;
-    height: 317.13px;
-    width: 317.13px; 
-    position: absolute;
-    right: 0;
-    float: left;   
+    position: relative;
+    left: 34%;  
 }
 
 
