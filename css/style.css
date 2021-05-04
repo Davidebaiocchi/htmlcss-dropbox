@@ -448,8 +448,8 @@ h4 {
 }
 
 .section2 img {
-    height: 75px;
-    width: 150px;
+   
+    width: 40%;
     color: white;
     display: block;
     position: absolute;
@@ -516,6 +516,7 @@ h4 {
 
 .secondoquadrato img {
     filter: invert(0);
+    width: 20%;
 }
 
 .secondoquadrato p {
