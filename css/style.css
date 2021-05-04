@@ -70,12 +70,25 @@ header #logo span {
 }
 
 
+/* effetto con hover */
 
+.effetto {
+    display: none;
+}
 
+.hover:hover .effetto {
+    display: block;
+    position: absolute;
+    top: 24px;
+    right: 200px;
+    width: 13vw;
+    padding-left: 25px;
+    padding-top: 30px;
+    background-color: rgb(248, 247, 247);
+    font-size: 16px;
+}
 
-
-
-
+   
 
 
 /* BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON  */
@@ -447,8 +460,7 @@ h4 {
     top: 550px;
 }
 
-.section2 img {
-   
+.section2 img {  
     width: 40%;
     color: white;
     display: block;
